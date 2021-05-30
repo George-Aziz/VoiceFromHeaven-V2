@@ -1,4 +1,7 @@
 
+## Voice From Heaven
+This is a simple personal website created to showcase personal inspirations and tokens of blessings from the Coptic Orthodox Sunday Schools across the world
+
 ## 👉 Get Started
 Install dependencies
 ```
