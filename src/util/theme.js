@@ -8,7 +8,7 @@ import * as colors from "@material-ui/core/colors";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { createLocalStorageStateHook } from "use-local-storage-state";
-import "googlefont.css";
+import "./googlefont.css";
 const themeConfig = {
   // Light theme
   light: {
