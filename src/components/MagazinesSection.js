@@ -140,7 +140,7 @@ function MagazinesSection(props) {
         <Grid container={true} justify="center" spacing={4}>
           {showItems.map((item, index) => (
             <Grid item={true} xs={12} sm={6} md={4} key={index}>
-            <a href={item.href} target="_blank" rel="noopener noreferrer">
+            <a href={item.href} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
               <Card className={classes.card}>
                 <CardActionArea>
                   <CardMedia
