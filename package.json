@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "keywords": ["voice from heaven"],
-  "description": "Version 2 of my personal website 'Voice From Heaven' website created with React and Material UI and setup help with DivJoy",
+  "description": "Version 2 of my personal website 'Voice From Heaven' website created with React and Material UI with setup help with DivJoy",
   "dependencies": {
     "react": "17.0.1",
     "react-dom": "17.0.1",
