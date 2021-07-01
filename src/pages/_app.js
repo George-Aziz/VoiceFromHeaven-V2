@@ -3,6 +3,7 @@ import Navbar from "./../components/Navbar";
 import IndexPage from "./index";
 import MagazinesPage from "./magazines";
 import LiturgicalReflectionsPage from "./liturgicalreflections";
+import ChoirPage from "./choir";
 import { Switch, Route, Router } from "./../util/router.js";
 import NotFoundPage from "./not-found.js";
 import Footer from "./../components/Footer";
@@ -29,6 +30,8 @@ function App(props) {
               path="/LiturgicalReflections"
               component={LiturgicalReflectionsPage}
             />
+
+            <Route exact path="/Choir" component={ChoirPage} />
 
             <Route component={NotFoundPage} />
           </Switch>

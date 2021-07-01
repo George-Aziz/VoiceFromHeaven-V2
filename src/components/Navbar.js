@@ -86,6 +86,10 @@ function Navbar(props) {
                 Liturgical Relfections
               </Button>
 
+              <Button color="inherit" component={Link} to="/Choir">
+                Choir
+              </Button>
+
               <IconButton
                 color="inherit"
                 onClick={darkMode.toggle}
@@ -114,6 +118,10 @@ function Navbar(props) {
 
           <ListItem button={true} component={Link} to="/LiturgicalReflections">
             <ListItemText>Liturgical Reflections</ListItemText>
+          </ListItem>
+
+          <ListItem button={true} component={Link} to="/Choir">
+            <ListItemText>Choir</ListItemText>
           </ListItem>
 
           <ListItem>
