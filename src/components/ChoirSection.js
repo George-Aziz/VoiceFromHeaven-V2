@@ -54,7 +54,7 @@ function ChoirSection(props) {
     {
       videoTitle: "The Parakletos",
       videoDesc: "SAINT KYREL CHOIR - The Parakletos June 2021",
-      videoLink: "https://www.youtube.com/embed/SxTbPwN5dbk"
+      videoLink: "https://www.youtube.com/embed/ZIRydoQ_pB4"
     }
   ];
   return (
